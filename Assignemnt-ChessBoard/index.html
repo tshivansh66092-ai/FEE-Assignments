@@ -1,0 +1,66 @@
+<html>
+<head>
+<style>
+  body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+
+  }
+
+  .chessboard{
+    display: grid;
+    grid-template-columns: 200px 200px 200px ;
+    grid-template-rows: 200px 200px 200px;
+    border : 5px solid;
+  }
+  .white{
+    background-color: aliceblue;
+  }
+  .black{
+    background-color: black;
+  }
+  
+  .box{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    font-size: 100px;
+  }
+  h1{
+    font-size: 100px;
+    font-family: fantasy;
+  }
+
+
+</style>
+
+
+</head>
+<body>
+<h1> Chessboard 3X3 </h1>
+
+<div class="Chessboard">
+  <div class="box white">	&#9822</div>
+  <div class="box black"></div>
+  <div class="box white">	&#9822</div>
+
+  <div class="box black" ></div>
+  <div class="box white">	&#9818</div> 
+  <!-- 	&#9818 is a unicode and it means the symblols , html treats this symbol as a text -->
+  <div class="box black"></div>
+
+  <div class="box white">	&#9822</div>
+  <div class="box black"></div>
+  <div class="box white">	&#9822</div>
+  
+</div>
+  
+
+</body>
+
+
+
+
+</html>
