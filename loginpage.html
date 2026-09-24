@@ -1,0 +1,124 @@
+<html>
+<head>
+  <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <style>
+    body{
+      margin:0;
+      height:100vh;
+      background-color: dimgray;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .login{
+      height:500px;
+      width:500px;
+      display: flex;
+      flex-direction: column;
+      padding:40px;
+      border: 2px solid  rgb(158, 154, 154);
+      background-color: rgb(158, 154, 154);
+      border-radius: 20px;
+      align-items: center;
+      gap:30px;
+
+    }
+    .inputcontainer{
+      display:flex;
+      flex-direction: column;
+      gap:20px;
+    }
+    input{
+      box-shadow: 0px 3px 8px 0px rgb(99, 37, 37);
+      border:0px;
+      outline:none;
+      height:60px;
+      width:350px;
+      border-radius: 25px;
+      padding-left:20px ;
+      transition:.3s;
+    }
+    .anchortag{
+      position:relative;
+      right:110px;
+      bottom:20px;
+    }
+    .anchortag:hover{
+      cursor: pointer;
+    }
+    .loginbutton{
+      width:350px;
+      height:60px;
+      border-radius: 25px;
+      transition:.3s;
+      border: 0px ;
+      background:#6c92d0;
+    }
+    .loginbutton:hover{
+      transform: scale(1.03);
+    }
+    input:focus{
+      box-shadow:0 0 8px rgba(0,191,255,0.4);
+      
+    }
+    h1{
+      font-size: 40px;
+      
+    }
+    .icons{
+      display: flex;
+      gap:60px;
+      font-size: xx-large;
+    }
+    .icon{
+      padding: 10px;
+      background-color: #6c92d0;
+      border-radius: 50%;
+      transition:0.3s;
+    } 
+    .icon:hover{
+      transform:scale(1.07);
+      cursor: pointer;
+    }
+
+  </style>
+
+</head>
+
+<body>
+  <div class="login box">
+    <h1>Log In</h1>
+    <div class="inputcontainer">
+    <input  type="email" placeholder="Email" >
+    <input type="password" placeholder="Password">
+    </div>
+    <a href="#" class="anchortag">Forgot Password</a>
+    <button class="loginbutton" type="button" style="font-size: large;">Log In</button>
+    
+    <div class="icons">
+
+    <div class="icon">
+        <i class="fa-brands fa-google"></i>
+    </div>
+
+    <div class="icon">
+        <i class="fa-brands fa-apple"></i>
+    </div>
+
+    <div class="icon">
+        <i class="fa-brands fa-x-twitter"></i>
+    </div>
+
+</div>
+    
+
+
+  </div>
+
+
+
+</body>
+
+</html>
